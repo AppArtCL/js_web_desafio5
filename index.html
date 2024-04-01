@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>ToDo List</h1>
+        <hr>
+        <p class="nueva-tarea">Nueva tarea</p>
+        <input type="text" class="nombre-tarea">
+        <button class="boton-nueva"> Agregar </button>
+        <div class="contenedor-tareas">
+            <div class="resumen-tareas">
+                <p>Total: <span class="total-tareas">0</span></p>
+                <p>Realizadas: <span class="total-realizadas">0</span></p>
+            </div>
+            <div class="detalle-tareas">
+                <table>
+                    <thead>
+                      <th>ID</th>
+                      <th>Tarea</th>
+                      <th>&nbsp</th>
+                      <th>&nbsp</th>
+                    </thead>
+                    <tbody class="lista-tareas">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
